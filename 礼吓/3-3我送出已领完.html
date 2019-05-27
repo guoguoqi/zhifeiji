@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<title></title>
+		<style type="text/css">
+			html {
+				font-size: 50px;
+			}
+			
+			.main {
+				transition-property: all;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			.mai{
+				opacity: 0.5;
+			}
+			
+			.main>div {
+				margin: 0.5rem;
+			}
+			
+			.main h1 {
+				text-align: center;
+				font-size: 0.46rem;
+				opacity: 0.7;
+				
+				color: #000000;
+			}
+			
+			.gifbox p {
+				font-size: 0.37rem;
+				margin: 0.4rem 0;
+				opacity: 0.6;
+				
+			}
+			
+			.gifbox {
+				text-align: center;
+			}
+			
+			.gifbox .gif img {
+				width: 2.89rem;
+			}
+			
+			.main .pre img {
+				width: 2.1rem;
+				margin-left: 2.5rem;
+				/* opacity: 0.7; */
+			}
+			
+			
+			
+			.bod {
+				border: 1px solid #CCCCCC;
+				border-radius: 0.2rem;
+				font-size: 0.35rem;
+				padding: 0.4rem;
+				width: 6.1rem;
+				/* margin-left: 0.5rem; */
+			}
+			
+			.bod .p {
+				margin: 0.2rem 0;
+				opacity: 0.8;
+			}
+			
+			.price {
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.boxin {
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.amount {
+				display: flex;
+				justify-content: space-between;
+			}
+			.q{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 0.24rem;
+				padding: 0.3rem;
+			}
+			.q .q-1{
+				display: flex;
+				margin-left: 1.2rem;
+			}
+			.w{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 0.24rem;
+				color: #656565;
+				/* line-height: 0.55rem; */
+				padding: 0.2rem;
+				background: #CCCCCC;
+				border-top: 0.1px solid #000000;
+				border-bottom: 0.1px solid #000000;
+			}
+			.w p{
+				margin-left: 2.1rem;
+			}
+			
+			.footer{
+				transform: translateY(-460px);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.footer img{
+				border: 1px solid #CCCCCC;
+				border-radius: 2rem;
+			}
+			
+			@media screen and (max-width:374px) {
+				html {
+					font-size: 40px;
+				}
+				.q .q-1{
+					display: flex;
+					margin-left: 1rem;
+				}
+				.q{
+					display: flex;
+					padding: 0.3rem 0;
+					
+				}
+				.footer{
+					transform: translateY(-380px);
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="">
+				<h1>我送出的</h1>
+			</div>
+			<div class="mai">
+				<div class="gifbox">
+						
+					<div class="gif">
+						<img src="img/2-2-1.jpg">
+					</div>
+					<div class="">
+						<p><b>年会系列礼盒</b></p>
+						<p style="letter-spacing: 0.1rem; margin-left: 0.15rem;">祝大家新春快乐！</p>
+					</div>
+				</div>
+				<section class="bod">
+					<section class="price">
+						<section class="p"><span>赠礼时间</span></section>
+						<section class="p"><span style="color: #888888;">2018-01-05 23:59</span></section>
+					</section>
+					<section class="amount">
+						<section class="p"><span>盒内礼品</span></section>
+						<section class="p"><span>99件</span></section>
+					</section>
+					<section class="amount">
+						<section class="p"><span>礼盒价值</span></section>
+						<section class="p"><span>3200元</span></section>
+					</section>
+				</section>
+				<section class="q" style="color: #888888;">
+					<section><p>礼品可能升级为幸运礼品</p></section>
+					<section class="q-1"><p>本期幸运礼品：<span style="color: orange;">IphoneX</span></p></section>
+				</section>
+				<section class="w" style="letter-spacing: 0.01rem;">
+					<section style="width: 6rem;"><span>已领取 3/3</span></section>
+					
+				</section>
+				<section class="footer">
+					<img src="img/3-3.jpg "style="width: 1.96rem;" style="width: 6.9rem;">
+				</section>
+			</div>
+		</div>
+	</body>
+</html>

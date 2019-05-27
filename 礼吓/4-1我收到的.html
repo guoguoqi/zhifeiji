@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<title></title>
+		<style type="text/css">
+			html {
+				font-size: 50px;
+			}
+
+			.main {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.main h1 {
+				margin-top: 0.5rem;
+				font-size: 0.36rem;
+			}
+			.main>section{
+				margin-top: 0.4rem;
+			}
+
+			.box {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 6.6rem;
+				height: 4rem;
+				border: 1px solid #CCCCCC;
+				border-radius: 0.2rem;
+				box-shadow: 0px 1px 3px #888888;
+				line-height: 0.8rem;
+				margin-top: 0.5rem;
+				letter-spacing: 0.01rem;
+			}
+
+			.box .p1 {
+				font-size: 0.3rem;
+			}
+
+			.box .p2 {
+				font-size: 0.6rem;
+			}
+
+			.box .p3 {
+				font-size: 0.3rem;
+			}
+
+			.fot{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 6.6rem;
+					height: 2.3rem;
+					border: 1px solid #CCCCCC;
+					border-radius: 0.2rem;
+					box-shadow: 0px 1px 3px #888888;
+					letter-spacing: 0.01rem;
+					
+				}
+				.fot-1{
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					margin-top: 0.2rem;
+					margin-bottom: 0.6rem;
+				}
+				.fot-3{
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					margin-top: 0.3rem;
+					margin-bottom: 0.4rem;
+				}
+				.fot-3 p{
+					margin-right: 2.5rem;
+					font-size: 0.3rem;
+				}
+				.fot-3 span{
+					display: flex;
+					flex-direction: column;
+					height: 0.1rem;
+				}
+				.main .fot .fot-3 .f1{
+					float: right;
+					
+				}
+				.fot-2{
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					margin-top: 0rem;
+					color: #333333;
+					font-size: 0.24rem;
+				}
+				.fot-1 p{
+					margin-right: 3rem;
+					font-size: 0.3rem;
+				}
+				.fot-2 .e{
+					margin-right: 1.75rem;
+				}
+				.fot-2 .r{
+					margin-top: 0.15rem;
+				}
+				.fot-3 p{
+					margin-left: 0.1rem;
+				}
+				.footer p a{
+					color: #576b95;
+					font-size: 0.26rem;
+				}
+				.footer{
+					margin-top: 0.3rem;
+					margin-bottom: 0.3rem;
+				}
+				@media screen and (max-width:374px) {
+					html {
+						font-size: 40px;
+					}
+					.fot{
+						width: 6.65rem;
+					}
+					.fot-2 .r{
+						margin-right: -0.25rem;
+					}
+		</style>
+	</head>
+	<body>
+		<section class="main">
+			<section>
+				<h1>我收到的</h1>
+			</section>
+			<section class="box">
+				<section><img src="img/4-1.jpg" style="width: 0.66rem;"></section>
+				<section class="p1">
+					<p>收礼总价值</p>
+				</section>
+				<section class="p2">
+					<p>10001</p>
+				</section>
+				<section class="p3">
+					<p>收到礼盒数量<span style="color: #008000;">100</span>个</p>
+				</section>
+			</section>
+			<section class="fot">
+				<section class="fot-1">
+					<section><p>男神专属礼盒</p></section>
+					<section><span style="color: #f7be11;">待发货</span></section>
+				</section>
+				<section class="fot-2">
+					<section class="e"><p><img src="img/4-2.jpg" style="width: 0.66rem;"><span> 小米电动牙刷1支 </span></p></section>
+					<section class="r"><span> 赠礼人:拉布、 </span></section>
+				</section>
+			</section>
+			<section class="fot">
+				<section class="fot-3">
+					<section><p>男神专属礼盒</p></section>
+					<section class="clearfix">
+						<section class="f1"><span style="color: #f7be11;">待发货 </span></section>
+						<br>
+						<span style="color: #f7be11;">(未填地址) </span>
+					</section>
+				</section>
+				<section class="fot-2">
+					<section class="e"><p><img src="img/4-2.jpg" style="width: 0.66rem;"><span> 小米电动牙刷1支 </span></p></section>
+					<section class="r"><span> 赠礼人:拉布、 </span></section>
+				</section>
+			</section>
+			<section class="fot">
+				<section class="fot-1">
+					<section><p>男神专属礼盒</p></section>
+					<section><span style="color: #69be49;">已发货</span></section>
+				</section>
+				<section class="fot-2">
+					<section class="e"><p><img src="img/4-2.jpg" style="width: 0.66rem;"><span> 小米电动牙刷1支 </span></p></section>
+					<section class="r"><span> 赠礼人:拉布、 </span></section>
+				</section>
+			</section>
+			<section class="footer"><p><a href="">联系客服</a></p></section>
+		</section>
+	</body>
+</html>

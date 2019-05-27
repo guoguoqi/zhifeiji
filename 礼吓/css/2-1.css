@@ -1,0 +1,143 @@
+.wrapper {
+				margin: 0 .5rem;
+				padding-top: .37rem;
+				letter-spacing: 0.01rem;
+			}
+
+			.lh-a1 {
+				float: left;
+				font-size: .28rem;
+			}
+
+			.lh-a2 {
+				float: right;
+				font-size: .24rem;
+				color: #656565 !important;
+			}
+
+			.lhbz-main {}
+
+			.main-img1 {
+				margin-top: 0.3rem;
+				margin-left: 33%;
+				margin-right: 33%;
+			}
+			
+
+			.main-img2 {
+				padding-top: .38rem;
+				padding-left: 45%;
+				padding-right: 45%;
+				width: 0.66rem;
+
+			}
+
+			.main-img2 img {
+				width: .66rem;
+			}
+
+			.hnlp {
+				margin-top: .5rem;
+			}
+
+			.hnlp-head2 {
+				padding-top: .22rem;
+			}
+
+			.gift-box {
+
+				position: relative;
+				border: 1px solid #CCCCCC;
+				border-radius: 3px;
+				margin-top: .1rem;
+				padding-top: .2rem;
+				width: 3rem
+			}
+
+			.gift-item ul li:nth-child(odd) {
+				margin-right: .2rem;
+			}
+
+			.gift-item ul li:nth-child(even) {
+				margin-left: .2rem;
+			}
+
+			.pinzhi {
+				font-size: .3rem;
+			}
+
+			.price {
+				color: #656565;
+				font-size: .48rem;
+			}
+
+			.value {
+				font-size: .2rem;
+				color: #878787;
+			}
+
+			.box-top {
+				border-bottom: 1px solid #CCCCCC;
+			}
+
+			.box-top p {
+				line-height: .48rem;
+			}
+
+			.icon-jia {
+				padding: .1rem 45% .1rem;
+			}
+
+			.icon-jia img {
+				width: .32rem;
+			}
+
+			.box-logo {
+				position: absolute;
+				top: .3rem;
+				right: .2rem;
+
+
+				width: .58rem;
+				height: .5rem;
+			}
+
+			.foot {
+				display: flex;
+				padding: .22rem 0;
+			}
+
+			.buy {
+				padding: .22rem .6rem;
+				border-top: 1px solid #CCCCCC;
+			}
+
+			.buy-left {
+				float: left;
+				width: 45%;
+			}
+
+			.buy-left p {
+				width: 3rem;
+			}
+
+			.buy-right {
+				float: right;
+				width: 45%;
+				position: relative;
+			}
+
+			.buy-right button {
+				position: absolute;
+				top: .1rem;
+				right: .3rem;
+				padding: .2rem .45rem;
+				background-color: #4CAF50;
+				/* Green */
+				border: none;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+			}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<title></title>
+		<style type="text/css">
+			html {
+				font-size: 50px;
+			}
+
+			.main {
+				transition-property: all;
+				
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.main>div {
+				margin: 0.5rem;
+			}
+
+			.main h1 {
+				text-align: center;
+				font-size: 0.36rem;
+			}
+
+			.gifbox p {
+				font-size: 0.37rem;
+				margin: 0.4rem 0;
+				opacity: 0.6;
+			}
+
+			.gifbox {
+				text-align: center;
+			}
+
+			.gifbox .gif img {
+				width: 2.89rem;
+			}
+
+			.main .pre img {
+				width: 2.1rem;
+				margin-left: 2.5rem;
+				/* opacity: 0.7; */
+			}
+
+			.pre {
+				transform: translateY(-1800px);
+			}
+
+			.bod {
+				border: 1px solid #CCCCCC;
+				border-radius: 0.2rem;
+				font-size: 0.35rem;
+				padding: 0.4rem;
+				width: 6.1rem;
+				/* margin-left: 0.5rem; */
+			}
+
+			.bod .p {
+				margin: 0.2rem 0;
+				opacity: 0.8;
+			}
+
+			.price {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.boxin {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.amount {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.box {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				margin-top: 0.2rem;
+			}
+
+			.box section {
+				margin: 0.1rem 0;
+
+			}
+
+			.box p {
+				font-size: 0.33rem;
+				margin-left: 0.5rem;
+				color: #576b95;
+			}
+
+			.box .x {
+				text-align: center;
+				
+			}
+
+			.box .x textarea {
+				background: #e0e0e0;
+				padding-top: 0.2rem;
+				font-size: 0.35rem;
+			}
+
+			.but button {
+				border-radius: 0.2rem;
+			}
+
+			.but button:hover {
+				opacity: 0.5;
+			}
+
+			.but button:hover .pre img {
+				transform: translateY(0px);
+			}
+
+
+
+			@media screen and (max-width:374px) {
+				html {
+					font-size: 40px;
+				}
+			@media screen and (min-width:750px) {
+				html {
+					font-size: 50px;
+					max-width: 375px;
+
+				}
+				.box .x{
+					
+				}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="">
+				<h1>购买礼盒</h1>
+			</div>
+			<div class="gifbox">
+
+				<div class="gif">
+					<img src="img/2-2-1.jpg">
+				</div>
+				<div class="">
+					<p><b>年会系列礼盒</b></p>
+				</div>
+			</div>
+			<section class="bod">
+				<section class="price">
+					<section class="p"><span>礼盒价格</span></section>
+					<section class="p"><span>198元</span></section>
+				</section>
+				<section class="boxin">
+					<section class="p"><span>盒内礼品</span></section>
+					<section class="p"><span>52件</span></section>
+				</section>
+				<section class="amount">
+					<section class="p"><span>礼品总价值</span></section>
+					<section class="p"><span>3000~5000元</span></section>
+				</section>
+			</section>
+
+			<section class="box">
+				<section>
+					<p>你的赠言</p>
+				</section>
+				<section class="x"><textarea name="a" style="width:6.9rem;height:2.4rem;">  美女，一起吃个早饭~</textarea>
+				</section>
+			</section>
+			<div class="but">
+				<button type="button" style="width: 6.9rem; height: 1.2rem; background: #008000;">赠送</button>
+			</div>
+			<div class="pre">
+				<img src="img/2-2-2.jpg">
+			</div>
+			
+		</div>
+	</body>
+</html>
